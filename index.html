@@ -41,8 +41,19 @@
 	<link rel="stylesheet" href="css/flexslider.css">
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="css/bootstrap.css">
+ <!-- flickity slider  -->
+	<link rel="stylesheet" href="css/flickity.css" media="screen">
+
 
 	<link rel="stylesheet" href="css/style.css">
+
+  <!-- fontawesome icon  -->
+	<link href="fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="fontawesome/css/brands.css" rel="stylesheet">
+  <link href="fontawesome/css/solid.css" rel="stylesheet">
+
+  <!-- gallery lightbox -->
+   <link rel="stylesheet" href="lightbox/dist/css/lightbox.min.css">
 
 
 	<!-- Modernizr JS -->
@@ -92,7 +103,7 @@
 				<div class="container-fluid">
 					<div class="fh5co-menu-1">
 						<a href="#" data-nav-section="home">Inicio</a>
-						<a href="#" data-nav-section="about">Marcos Damas</a>
+						<a href="#" data-nav-section="about">Quienes Somos</a>
 						<a href="#" data-nav-section="features">Servicios</a>
 					</div>
 					<div class="fh5co-logo">
@@ -111,96 +122,26 @@
 		<div id="fh5co-about" data-section="about">
 
 			<div class="fh5co-2col fh5co-bg to-animate-2 ">
-				<div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #efb196;"></path></svg></div>
-        <div class="row">
+				<div style="height: 80px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%; -webkit-box-shadow: 0px 9px 5px 0px rgba(219,216,219,1);
+-moz-box-shadow: 0px 9px 5px 0px rgba(219,216,219,1);
+box-shadow: 0px 9px 5px 0px rgba(219,216,219,1);"><path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #efb196;"></path></svg></div>
+        <div class="row about_row">
 
 				<div class="col-md-6 fh5co-text">
-					<h2 class="heading to-animate">Quienes Somos</h2>
-					<p class="to-animate"><span class="firstcharacter">MD</span>
-						 nace desde al amor innato por la limpieza y el orden. Es fácil llenarse de cosas: ropa, documentos, juguetes, libros, coméstibles, electrónicos,
-						 y demás artículos que luego no sabemos como organizar de manera que se encuentren accesibles y en óptimo estado.
-             Y realmente necesitamos todas estas cosas?.</p>
-					<p class="to-animate"><span class="tittle">Nuestra Misión,</span>
-						 es proveer servicios de alta calidad, eficiencia y optimización de espacios.</p>
 
-					<p class="to-animate"><span class="tittle">Nuestra Visión,</span>
-	 					 es ser reconocidos por nuestros clientes a nivel local, regional y mundial como una empresa de excelencia.</p>
+				 <img class="img-about" src="images/organizedman.png"  alt="mdprofesionalorganizer">
 
-					<!-- <p class="text-center to-animate"><a href="#" class="btn btn-primary btn-outline">Get in touch</a></p> -->
 				</div>
 
 				<div class="col-md-6 fh5co-text">
-					<h2 class="heading to-animate">Nuestros Valores</h2>
-					<p class="to-animate"><span class="firstcharacter">Dios</span> es un Dios de Orden es por eso que nuestros valores estan fundamentados en lo que El nos dice en su palabra:
-					 Y todo lo que hagáis, hacedlo de corazón, como para el Señor y no para los hombres; sabiendo que del Señor recibiréis la recompensa de la herencia, porque a Cristo el Señor servís.  Colosenses 3: 23-24.</p>
-
-					 <div class="row to-animate">
-					 	<div class=" col-md-4 col-sm-6">
-							<div class="valores">
-							<figure class="imghvr-zoom-out-flip-vert"><img src="images/compromiso_2.png" alt="example-image">
-							<figcaption>
-								<h5 style="text-align: left;">Comprometidos en desarrollar un trabajo de calidad para el bienestar de nuestros clientes</5>
-								<!-- <p  style="color:#fff; font-size: 8px;" >dejamos todo en cada proyecto.</p> -->
-							</figcaption><a href="javascript:;"></a>
-							</figure>
-							</div>
-					 	</div>
-						<div class=" col-md-4 col-sm-6">
-							<div class="valores">
-							<figure class="imghvr-zoom-out-flip-vert"><img src="images/empatia_2.png" alt="example-image">
-							<figcaption>
-						   		<h5 style="text-align: left;">Tenemos la capacidad de percibir y entender los sentimientos y emociones de nuestro clientes para alcanzar un mejor resultado. </5>
-							</figcaption><a href="javascript:;"></a>
-							</figure>
-							</div>
-					 </div>
-
-					 <div class=" col-md-4 col-sm-6">
-						 <div class="valores">
-						 <figure class="imghvr-zoom-out-flip-vert"><img src="images/responsabilidad_2.png" alt="example-image">
-						 <figcaption>
-							<h5 style="text-align: left;">Afrontamos cada proyecto con suma responsabilidad y honestidad a la hora de realizar cada trabajo.</5>
-						 </figcaption><a href="javascript:;"></a>
-						 </figure>
-						 </div>
-					</div>
-
-					</div>
-					<div class="row to-animate">
-						<div class=" col-md-4 col-sm-6">
-							<div class="valores">
-							<figure class="imghvr-zoom-out-flip-vert"><img src="images/talento_2.png" alt="example-image">
-							<figcaption>
-								<h5 style="text-align: left;">Comprometidos en desarrollar un trabajo de calidad para el bienestar de nuestros clientes</5>
-								<!-- <p  style="color:#fff; font-size: 8px;" >dejamos todo en cada proyecto.</p> -->
-							</figcaption><a href="javascript:;"></a>
-							</figure>
-							</div>
-						</div>
-						<div class=" col-md-4 col-sm-6">
-							<div class="valores">
-							<figure class="imghvr-zoom-out-flip-vert"><img src="images/eficiencia_2.png" alt="example-image">
-							<figcaption>
-									<h5 style="text-align: left; ">Tenemos la capacidad de percibir y entender los sentimientos y emociones de nuestro clientes para alcanzar un mejor resultado. </5>
-							</figcaption><a href="javascript:;"></a>
-							</figure>
-							</div>
-					 </div>
-
-					 <div class=" col-md-4 col-sm-6">
-						 <div class="valores">
-						 <figure class="imghvr-zoom-out-flip-vert"><img src="images/preservacion_2.png" alt="example-image">
-						 <figcaption>
-							<h5 style="text-align: left;">Afrontamos cada proyecto con suma responsabilidad y honestidad a la hora de realizar cada trabajo.</5>
-						 </figcaption><a href="javascript:;"></a>
-						 </figure>
-						 </div>
-					</div>
-
-				 </div>
-
-
-
+					<h2 class="heading to-animate">Quines Somos</h2>
+					<!-- <p class="to-animate"><span class="firstcharacter">Dios</span> es un Dios de Orden es por eso que nuestros valores estan fundamentados en lo que El nos dice en su palabra:
+					 Y todo lo que hagáis, hacedlo de corazón, como para el Señor y no para los hombres; sabiendo que del Señor recibiréis la recompensa de la herencia, porque a Cristo el Señor servís.  Colosenses 3: 23-24.</p> -->
+					 <p class="to-animate"><span class="firstcharacter">MD</span>
+							nace desde al amor innato por la limpieza y el orden. Es fácil llenarse de cosas: ropa, documentos, juguetes, libros, coméstibles, electrónicos,
+							y demás artículos que luego no sabemos como organizar de manera que se encuentren accesibles y en óptimo estado.
+							 Y realmente necesitamos todas estas cosas?.</p>
+					<p class="text-center to-animate"><a href="#" class="btn btn-primary btn-outline">Conoce Más sobre nosotros</a></p>
 				</div>
 			</div>
 			</div>
@@ -213,37 +154,31 @@
 		<div id="fh5co-sayings">
 			<div class="container">
 				<div class="row to-animate">
+					<div class=" col-md-12 to-animate"> <h2 >Nuestro Metodo Organizer </h2></div>
+					<div class=" col-md-12 bg-border fh5co-text">
+						 <div class="row">
+						 	  <div class="col-md-3"><div class="process">
+									 <i class="number">1</i>
+									 <h4>Contactanos</h4>
+									 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								 </div></div>
+								<div class="col-md-3 "><div class="process">
+									<i class="number">2</i>
+									<h4>Evaluacion Virtual</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									 </div></div>
+								<div class="col-md-3 "><div class="process">
+									<i class="number">3</i>
+									<h4>Diseñar y Desarrollar</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									</div></div>
+								<div class="col-md-3 "><div class="process">
+									<i class="number">4</i>
+									<h4>Depuracion y ubicacion</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									</div></div>
+						 </div>
 
-					<div class="flexslider">
-						<ul class="slides">
-
-							<li>
-								<blockquote>
-									<p>&ldquo;Cooking is an art, but all art requires knowing something about the techniques and materials&rdquo;</p>
-									<p class="quote-author">&mdash; Nathan Myhrvold</p>
-								</blockquote>
-							</li>
-							<li>
-								<blockquote>
-									<p>&ldquo;Give a man food, and he can eat for a day. Give a man a job, and he can only eat for 30 minutes on break.&rdquo;</p>
-									<p class="quote-author">&mdash; Lev L. Spiro</p>
-								</blockquote>
-							</li>
-							<li>
-								<blockquote>
-									<p>&ldquo;Find something you’re passionate about and keep tremendously interested in it.&rdquo;</p>
-									<p class="quote-author">&mdash; Julia Child</p>
-								</blockquote>
-							</li>
-							<li>
-								<blockquote>
-									<p>&ldquo;Never work before breakfast; if you have to work before breakfast, eat your breakfast first.&rdquo;</p>
-									<p class="quote-author">&mdash; Josh Billings</p>
-								</blockquote>
-							</li>
-
-
-						</ul>
 					</div>
 
 				</div>
@@ -252,437 +187,240 @@
 
 		<div id="fh5co-featured" data-section="features">
 			<div class="container">
-				<div class="row text-center fh5co-heading row-padded">
+		 <div class="row text-center row-padded">
 					<div class="col-md-8 col-md-offset-2">
-						<h2 class="heading to-animate">Featured Dishes</h2>
+						<h2 class="to-animate">Nuestros Servicios</h2>
 						<p class="sub-heading to-animate">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 					</div>
 				</div>
 				<div class="row">
-					<div class="fh5co-grid">
-						<div class="fh5co-v-half to-animate-2">
-							<div class="fh5co-v-col-2 fh5co-bg-img" style="background-image: url(images/res_img_1.jpg)"></div>
-							<div class="fh5co-v-col-2 fh5co-text fh5co-special-1 arrow-left">
-								<h2>Fresh Mushrooms</h2>
-								<span class="pricing">$7.50</span>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							</div>
+					 <div class="col-md-6">
+						 <div class="row">
+						 	<div class="col-md-12">
+						 		<h4 class="to-animate">Deja tu Hogar en nuestras manos</h4>
+						 	</div>
+						 </div>
+						 <div class="services-home">
+							<div class="btn-service to-animate"><a id="btn-abrir-servicios" class="btn btn-primary btn-outline">Quieres Saber mas?</a></div>
 						</div>
-						<div class="fh5co-v-half">
-							<div class="fh5co-h-row-2 to-animate-2">
-								<div class="fh5co-v-col-2 fh5co-bg-img" style="background-image: url(images/res_img_2.jpg)"></div>
-								<div class="fh5co-v-col-2 fh5co-text arrow-left">
-									<h2>Grilled Chiken Salad</h2>
-									<span class="pricing">$12.00</span>
-									<p>Far far away, behind the word mountains.</p>
-								</div>
-							</div>
-							<div class="fh5co-h-row-2 fh5co-reversed to-animate-2">
-								<div class="fh5co-v-col-2 fh5co-bg-img" style="background-image: url(images/res_img_8.jpg)"></div>
-								<div class="fh5co-v-col-2 fh5co-text arrow-right">
-									<h2>Cheese and Garlic Toast</h2>
-									<span class="pricing">$4.50</span>
-									<p>Far far away, behind the word mountains.</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="fh5co-v-half">
-							<div class="fh5co-h-row-2 fh5co-reversed to-animate-2">
-								<div class="fh5co-v-col-2 fh5co-bg-img" style="background-image: url(images/res_img_7.jpg)"></div>
-								<div class="fh5co-v-col-2 fh5co-text arrow-right">
-									<h2>Organic Egg</h2>
-									<span class="pricing">$4.99</span>
-									<p>Far far away, behind the word mountains.</p>
-								</div>
-							</div>
-							<div class="fh5co-h-row-2 to-animate-2">
-								<div class="fh5co-v-col-2 fh5co-bg-img" style="background-image: url(images/res_img_6.jpg)"></div>
-								<div class="fh5co-v-col-2 fh5co-text arrow-left">
-									<h2>Salad with Crispy Chicken</h2>
-									<span class="pricing">$8.50</span>
-									<p>Far far away, behind the word mountains.</p>
-								</div>
-							</div>
-						</div>
-						<div class="fh5co-v-half to-animate-2">
-							<div class="fh5co-v-col-2 fh5co-bg-img" style="background-image: url(images/res_img_3.jpg)"></div>
-							<div class="fh5co-v-col-2 fh5co-text fh5co-special-1 arrow-left">
-								<h2>Tomato Soup with Chicken</h2>
-								<span class="pricing">$12.99</span>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							</div>
-						</div>
-
 					</div>
-				</div>
+					 <div class="col-md-6">
+						 	<div class="row">
+								 <div class="col-md-12">
+								   <h4 class="to-animate">Quieres tener espacios increibles en tu oficina?</h4>
+						  	 </div>
+							</div>
+						 <div class="services-officce">
+	            <div class="btn-service to-animate"><a id="btn-abrir-servicios"  class="btn btn-primary btn-outline">Quieres Saber mas?</a></div>
+						 </div>
+					 </div>
+		</div>
+</div>
+</div>
 
+
+
+
+<div id="fh5co-menus" data-section="menu">
+			<div class="container">
+					<div class="row text-center">
+							 <div class="col-md-8 col-md-offset-2">
+								 <h2 class="to-animate">Conoce Nuestro Trabajo</h2>
+								 <p class="sub-heading to-animate">aqui, te mostramos un poco de nuestro trabajos de calidad realizados</p>
+							 </div>
+						 </div>
+					 <div class="row">
+						 <div id="carousel-reviews" class="carousel slide" data-ride="carousel">
+
+						 <div class="carousel-inner">
+							 <div class="item active">
+									 <div class="col-md-4">
+							       <a class="image-work" href="images/works/work_1/work_1_2.png" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="image-work" src="images/works/work_1/work_1_1.png" alt=""/></a>
+											 <a class="example-image-link" style="visibility: hidden; display:none;" href="images/works/work_1/work_1_3.png" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="images/works/work_1/work_1_2.png" alt="" /></a>
+											 <a class="example-image-link" style="visibility: hidden; display:none;" href="images/works/work_1/work_1_4.png" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="images/works/work_1/work_1_3.png" alt="" /></a>
+											 <a class="example-image-link" style="visibility: hidden; display:none;" href="images/works/work_1/work_1_1.png" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="images/works/work_1/work_1_4.png" alt="" /></a>
+							     </div>
+									 <div class="col-md-4">
+										 <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="image-work" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-1.jpg" alt=""/></a>
+											 <a class="example-image-link" style="visibility: hidden; display:none;" href="http://lokeshdhakar.com/projects/lightbox2/images/image-4.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-4.jpg" alt="" /></a>
+											 <a class="example-image-link" style="visibility: hidden; display:none;" href="http://lokeshdhakar.com/projects/lightbox2/images/image-5.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-5.jpg" alt="" /></a>
+											 <a class="example-image-link" style="visibility: hidden; display:none;" href="http://lokeshdhakar.com/projects/lightbox2/images/image-6.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-6.jpg" alt="" /></a>
+									 </div>
+									 <div class="col-md-4">
+										 <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="image-work" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-2.jpg" alt=""/></a>
+											 <a class="example-image-link" style="visibility: hidden; display:none;" href="http://lokeshdhakar.com/projects/lightbox2/images/image-4.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-4.jpg" alt="" /></a>
+											 <a class="example-image-link" style="visibility: hidden; display:none;" href="http://lokeshdhakar.com/projects/lightbox2/images/image-5.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-5.jpg" alt="" /></a>
+											 <a class="example-image-link" style="visibility: hidden; display:none;" href="http://lokeshdhakar.com/projects/lightbox2/images/image-6.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-6.jpg" alt="" /></a>
+									 </div>
+					  	</div>
+
+							<div class="item">
+									<div class="col-md-4">
+										<a class="image-work" href="images/works/work_1/work_1_2.png" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="image-work" src="images/works/work_1/work_1_1.png" alt=""/></a>
+											<a class="example-image-link" style="visibility: hidden; display:none;" href="images/works/work_1/work_1_3.png" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="images/works/work_1/work_1_2.png" alt="" /></a>
+											<a class="example-image-link" style="visibility: hidden; display:none;" href="images/works/work_1/work_1_4.png" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="images/works/work_1/work_1_3.png" alt="" /></a>
+											<a class="example-image-link" style="visibility: hidden; display:none;" href="images/works/work_1/work_1_1.png" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="images/works/work_1/work_1_4.png" alt="" /></a>
+									</div>
+									<div class="col-md-4">
+										<a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="image-work" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-1.jpg" alt=""/></a>
+											<a class="example-image-link" style="visibility: hidden; display:none;" href="http://lokeshdhakar.com/projects/lightbox2/images/image-4.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-4.jpg" alt="" /></a>
+											<a class="example-image-link" style="visibility: hidden; display:none;" href="http://lokeshdhakar.com/projects/lightbox2/images/image-5.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-5.jpg" alt="" /></a>
+											<a class="example-image-link" style="visibility: hidden; display:none;" href="http://lokeshdhakar.com/projects/lightbox2/images/image-6.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-6.jpg" alt="" /></a>
+									</div>
+									<div class="col-md-4">
+										<a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="image-work" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-2.jpg" alt=""/></a>
+											<a class="example-image-link" style="visibility: hidden; display:none;" href="http://lokeshdhakar.com/projects/lightbox2/images/image-4.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-4.jpg" alt="" /></a>
+											<a class="example-image-link" style="visibility: hidden; display:none;" href="http://lokeshdhakar.com/projects/lightbox2/images/image-5.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-5.jpg" alt="" /></a>
+											<a class="example-image-link" style="visibility: hidden; display:none;" href="http://lokeshdhakar.com/projects/lightbox2/images/image-6.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-6.jpg" alt="" /></a>
+									</div>
+						 </div>
+          </div>
+
+					<a class="left carousel-control" href="#carousel-reviews" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+					<a class="right carousel-control" href="#carousel-reviews" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+
+				</div>
 			</div>
 		</div>
+</div>
 
-		<div id="fh5co-type" style="background-image: url(images/slide_3.jpg);" data-stellar-background-ratio="0.5">
+		<div id="fh5co-events" data-section="events" style="background-image: url(images/bg_testiminio.png);" data-stellar-background-ratio="0.5">
 			<div class="fh5co-overlay"></div>
 			<div class="container">
-				<div class="row">
-					<div class="col-md-3 to-animate">
-						<div class="fh5co-type">
-							<h3 class="with-icon icon-1">Fruits</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						</div>
-					</div>
-					<div class="col-md-3 to-animate">
-						<div class="fh5co-type">
-							<h3 class="with-icon icon-2">Sea food</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						</div>
-					</div>
-					<div class="col-md-3 to-animate">
-						<div class="fh5co-type">
-							<h3 class="with-icon icon-3">Vegetables</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						</div>
-					</div>
-					<div class="col-md-3 to-animate">
-						<div class="fh5co-type">
-							<h3 class="with-icon icon-4">Meat</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+				<div class="carousel-reviews broun-block">
+					<div class="row">
+					 <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
 
-		<div id="fh5co-menus" data-section="menu">
-			<div class="container">
-				<div class="row text-center fh5co-heading row-padded">
-					<div class="col-md-8 col-md-offset-2">
-						<h2 class="heading to-animate">Food Menu</h2>
-						<p class="sub-heading to-animate">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-					</div>
-				</div>
-				<div class="row row-padded">
-					<div class="col-md-6">
-						<div class="fh5co-food-menu to-animate-2">
-							<h2 class="fh5co-drinks">Drinks</h2>
-							<ul>
-								<li>
-									<div class="fh5co-food-desc">
-										<figure>
-											<img src="images/res_img_5.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
-										</figure>
-										<div>
-											<h3>Pineapple Juice</h3>
-											<p>Far far away, behind the word mountains.</p>
+						<div class="carousel-inner">
+						  <div class="item active">
+									<div class="col-md-4 col-sm-6">
+									  <div class="block-text rel zmin">
+										<h3>Closet Organizado</h3>
+										<div class="mark">Calificación: <span class="rating-input star-colors"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3"
+											class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span> </span>
 										</div>
+										<p>Ne eam errem semper. Laudem detracto phaedrum cu vim, pri cu errem fierent fabellas. Quis magna in ius, pro vidit nonumy te, nostrud ...</p>
+										<ins class="ab zmin sprite sprite-i-triangle block"></ins>
+									  </div>
+									  <div class="person-text rel text-light">
+										<img src="img/testimonials/1.jpg" alt="" class="person img-circle" />
+										<a title="" href="#">Anna Trump</a>
+										<p>Chicago, Illinois</p>
+									  </div>
 									</div>
-									<div class="fh5co-food-pricing">
-										$17.50
-									</div>
-								</li>
-								<li>
-									<div class="fh5co-food-desc">
-										<figure>
-											<img src="images/res_img_6.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
-										</figure>
-										<div>
-											<h3>Green Juice</h3>
-											<p>Far far away, behind the word mountains.</p>
-										</div>
-									</div>
-									<div class="fh5co-food-pricing">
-										$7.99
-									</div>
-								</li>
-								<li>
-									<div class="fh5co-food-desc">
-										<figure>
-											<img src="images/res_img_7.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
-										</figure>
-										<div>
-											<h3>Soft Drinks</h3>
-											<p>Far far away, behind the word mountains.</p>
-										</div>
-									</div>
-									<div class="fh5co-food-pricing">
-										$12.99
-									</div>
-								</li>
-								<li>
-									<div class="fh5co-food-desc">
-										<figure>
-											<img src="images/res_img_5.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
-										</figure>
-										<div>
-											<h3>Carlo Rosee Drinks</h3>
-											<p>Far far away, behind the word mountains.</p>
-										</div>
-									</div>
-									<div class="fh5co-food-pricing">
-										$12.99
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="fh5co-food-menu to-animate-2">
-							<h2 class="fh5co-dishes">Steak</h2>
-							<ul>
-								<li>
-									<div class="fh5co-food-desc">
-										<figure>
-											<img src="images/res_img_3.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
-										</figure>
-										<div>
-											<h3>Beef Steak</h3>
-											<p>Far far away, behind the word mountains.</p>
-										</div>
-									</div>
-									<div class="fh5co-food-pricing">
-										$17.50
-									</div>
-								</li>
-								<li>
-									<div class="fh5co-food-desc">
-										<figure>
-											<img src="images/res_img_4.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
-										</figure>
-										<div>
-											<h3>Tomato with Chicken</h3>
-											<p>Far far away, behind the word mountains.</p>
-										</div>
-									</div>
-									<div class="fh5co-food-pricing">
-										$7.99
-									</div>
-								</li>
-								<li>
-									<div class="fh5co-food-desc">
-										<figure>
-											<img src="images/res_img_2.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
-										</figure>
-										<div>
-											<h3>Sausages from Italy</h3>
-											<p>Far far away, behind the word mountains.</p>
-										</div>
-									</div>
-									<div class="fh5co-food-pricing">
-										$12.99
-									</div>
-								</li>
-								<li>
-									<div class="fh5co-food-desc">
-										<figure>
-											<img src="images/res_img_8.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
-										</figure>
-										<div>
-											<h3>Beef Grilled</h3>
-											<p>Far far away, behind the word mountains.</p>
-										</div>
-									</div>
-									<div class="fh5co-food-pricing">
-										$12.99
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="fh5co-food-menu to-animate-2">
-							<h2 class="fh5co-drinks">Drinks</h2>
-							<ul>
-								<li>
-									<div class="fh5co-food-desc">
-										<figure>
-											<img src="images/res_img_5.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
-										</figure>
-										<div>
-											<h3>Pineapple Juice</h3>
-											<p>Far far away, behind the word mountains.</p>
-										</div>
-									</div>
-									<div class="fh5co-food-pricing">
-										$17.50
-									</div>
-								</li>
-								<li>
-									<div class="fh5co-food-desc">
-										<figure>
-											<img src="images/res_img_6.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
-										</figure>
-										<div>
-											<h3>Green Juice</h3>
-											<p>Far far away, behind the word mountains.</p>
-										</div>
-									</div>
-									<div class="fh5co-food-pricing">
-										$7.99
-									</div>
-								</li>
-								<li>
-									<div class="fh5co-food-desc">
-										<figure>
-											<img src="images/res_img_7.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
-										</figure>
-										<div>
-											<h3>Soft Drinks</h3>
-											<p>Far far away, behind the word mountains.</p>
-										</div>
-									</div>
-									<div class="fh5co-food-pricing">
-										$12.99
-									</div>
-								</li>
-								<li>
-									<div class="fh5co-food-desc">
-										<figure>
-											<img src="images/res_img_5.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
-										</figure>
-										<div>
-											<h3>Carlo Rosee Drinks</h3>
-											<p>Far far away, behind the word mountains.</p>
-										</div>
-									</div>
-									<div class="fh5co-food-pricing">
-										$12.99
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="fh5co-food-menu to-animate-2">
-							<h2 class="fh5co-dishes">Steak</h2>
-							<ul>
-								<li>
-									<div class="fh5co-food-desc">
-										<figure>
-											<img src="images/res_img_3.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
-										</figure>
-										<div>
-											<h3>Beef Steak</h3>
-											<p>Far far away, behind the word mountains.</p>
-										</div>
-									</div>
-									<div class="fh5co-food-pricing">
-										$17.50
-									</div>
-								</li>
-								<li>
-									<div class="fh5co-food-desc">
-										<figure>
-											<img src="images/res_img_4.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
-										</figure>
-										<div>
-											<h3>Tomato with Chicken</h3>
-											<p>Far far away, behind the word mountains.</p>
-										</div>
-									</div>
-									<div class="fh5co-food-pricing">
-										$7.99
-									</div>
-								</li>
-								<li>
-									<div class="fh5co-food-desc">
-										<figure>
-											<img src="images/res_img_2.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
-										</figure>
-										<div>
-											<h3>Sausages from Italy</h3>
-											<p>Far far away, behind the word mountains.</p>
-										</div>
-									</div>
-									<div class="fh5co-food-pricing">
-										$12.99
-									</div>
-								</li>
-								<li>
-									<div class="fh5co-food-desc">
-										<figure>
-											<img src="images/res_img_8.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
-										</figure>
-										<div>
-											<h3>Beef Grilled</h3>
-											<p>Far far away, behind the word mountains.</p>
-										</div>
-									</div>
-									<div class="fh5co-food-pricing">
-										$12.99
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4 col-md-offset-4 text-center to-animate-2">
-						<p><a href="#" class="btn btn-primary btn-outline">More Food Menu</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
 
-		<div id="fh5co-events" data-section="events" style="background-image: url(images/slide_2.jpg);" data-stellar-background-ratio="0.5">
-			<div class="fh5co-overlay"></div>
-			<div class="container">
-				<div class="row text-center fh5co-heading row-padded">
-					<div class="col-md-8 col-md-offset-2 to-animate">
-						<h2 class="heading">Upcoming Events</h2>
-						<p class="sub-heading">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									<div class="col-md-4 col-sm-6 hidden-xs">
+									  <div class="block-text rel zmin">
+										<h3>Garaje Moderno</h3>
+										<div class="mark">Calificación: <span class="rating-input star-colors"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span>
+										  <span
+											data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span> </span>
+										</div>
+										<p>Ne eam errem semper. Laudem detracto phaedrum cu vim, pri cu errem fierent fabellas. Quis magna in ius, pro vidit nonumy te, nostrud ...</p>
+										<ins class="ab zmin sprite sprite-i-triangle block"></ins>
+									  </div>
+									  <div class="person-text rel text-light">
+										<img src="img/testimonials/2.jpg" alt="" class="person img-circle" />
+										<a title="" href="#">Matthew Phillips</a>
+										<p>San Antonio, Texas</p>
+									  </div>
+									</div>
+
+									<div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+									  <div class="block-text rel zmin">
+										<h3>Cocina Ordenada</h3>
+										<div class="mark">Calificación: <span class="rating-input star-colors"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3"
+											class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span> </span>
+										</div>
+										<p>Ne eam errem semper. Laudem detracto phaedrum cu vim, pri cu errem fierent fabellas. Quis magna in ius, pro vidit nonumy te, nostrud ...</p>
+										<ins class="ab zmin sprite sprite-i-triangle block"></ins>
+									  </div>
+									  <div class="person-text rel text-light">
+										<img src="img/testimonials/3.jpg" alt="" class="person img-circle" />
+										<a title="" href="#">Scarlet Smith</a>
+										<p>Dallas, Texas</p>
+									  </div>
+									</div>
+						  </div>
+						  <div class="item">
+									<div class="col-md-4 col-sm-6">
+									  <div class="block-text rel zmin">
+											<h3>Oficina Clasica</h3>
+										<div class="mark">Calificación: <span class="rating-input star-colors"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3"
+											class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span> </span>
+										</div>
+										<p>Ne eam errem semper. Laudem detracto phaedrum cu vim, pri cu errem fierent fabellas. Quis magna in ius, pro vidit nonumy te, nostrud ...</p>
+										<ins class="ab zmin sprite sprite-i-triangle block"></ins>
+									  </div>
+									  <div class="person-text rel text-light">
+										<img src="img/testimonials/4.jpg" alt="" class="person img-circle" />
+										<a title="" href="#">Lucas Thompson</a>
+										<p>Austin, Texas</p>
+									  </div>
+									</div>
+									<div class="col-md-4 col-sm-6 hidden-xs">
+									  <div class="block-text rel zmin">
+											<h3>Salon de Juego</h3>
+										<div class="mark">Calificación: <span class="rating-input star-colors"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span>
+										  <span	data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span> </span>
+										</div>
+										<p>Ne eam errem semper. Laudem detracto phaedrum cu vim, pri cu errem fierent fabellas. Quis magna in ius, pro vidit nonumy te, nostrud ...</p>
+										<ins class="ab zmin sprite sprite-i-triangle block"></ins>
+									  </div>
+									  <div class="person-text rel text-light">
+										<img src="img/testimonials/5.jpg" alt="" class="person img-circle" />
+										<a title="" href="#">Ella Mentree</a>
+										<p>Fort Worth, Texas</p>
+									  </div>
+									</div>
+									<div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+									  <div class="block-text rel zmin">
+										<h3>Despensa fantastica</h3>
+										<div class="mark">Calificación: <span class="rating-input star-colors"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3"
+											class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span> </span>
+										</div>
+										<p>Ne eam errem semper. Laudem detracto phaedrum cu vim, pri cu errem fierent fabellas. Quis magna in ius, pro vidit nonumy te, nostrud ...</p>
+										<ins class="ab zmin sprite sprite-i-triangle block"></ins>
+									  </div>
+									  <div class="person-text rel text-light">
+										<img src="img/testimonials/6.jpg" alt="" class="person img-circle" />
+										<a title="" href="#">Suzanne Adam</a>
+										<p>Detroit, Michigan</p>
+									  </div>
+									</div>
+						  </div>
+						</div>
+					  	<a class="left carousel-control" href="#carousel-testimonials" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+						  <a class="right carousel-control" href="#carousel-testimonials" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+					 </div>
 					</div>
+				  </div>
 				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="fh5co-event to-animate-2">
-							<h3>Kitchen Workshops</h3>
-							<span class="fh5co-event-meta">March 19th, 2016</span>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							<p><a href="#" class="btn btn-primary btn-outline">Read More</a></p>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="fh5co-event to-animate-2">
-							<h3>Music Concerts</h3>
-							<span class="fh5co-event-meta">March 19th, 2016</span>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							<p><a href="#" class="btn btn-primary btn-outline">Read More</a></p>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="fh5co-event to-animate-2">
-							<h3>Free to Eat Party</h3>
-							<span class="fh5co-event-meta">March 19th, 2016</span>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							<p><a href="#" class="btn btn-primary btn-outline">Read More</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+     </div>
 
 		<div id="fh5co-contact" data-section="reservation">
 			<div class="container">
 				<div class="row text-center fh5co-heading row-padded">
 					<div class="col-md-8 col-md-offset-2">
-						<h2 class="heading to-animate">Reserve a Table</h2>
-						<p class="sub-heading to-animate">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						<h2 class="heading to-animate">Contactanos</h2>
+						<p class="sub-heading to-animate">Si quieres conocer mas sobre nuestro servicio, llena el formulario o podemos atenderte por mensajeria Whatsapp</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6 to-animate-2">
-						<h3>Contact Info</h3>
+						<h3>Informacion de contacto</h3>
 						<ul class="fh5co-contact-info">
 							<li class="fh5co-contact-address ">
 								<i class="icon-home"></i>
 								5555 Love Paradise 56 New Clity 5655, <br>Excel Tower United Kingdom
 							</li>
 							<li><i class="icon-phone"></i> (123) 465-6789</li>
-							<li><i class="icon-envelope"></i>info@freehtml5.co</li>
-							<li><i class="icon-globe"></i> <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></li>
+							<li><i class="icon-envelope"></i>organizer@mdprofesionalservices.com</li>
+							<li><i class="icon-instagram"></i> <a href="#" target="_blank">@mdprofesionalservices</a></li>
 						</ul>
 					</div>
 					<div class="col-md-6 to-animate-2">
-						<h3>Reservation Form</h3>
+						<h3>formulario de informacion</h3>
 						<div class="form-group ">
 							<label for="name" class="sr-only">Name</label>
 							<input id="name" class="form-control" placeholder="Name" type="text">
@@ -692,12 +430,10 @@
 							<input id="email" class="form-control" placeholder="Email" type="email">
 						</div>
 						<div class="form-group">
-							<label for="occation" class="sr-only">Occation</label>
+							<label for="occation" class="sr-only">Que Servicio te interesa?</label>
 							<select class="form-control" id="occation">
-								<option>Select an Occation</option>
-							  <option>Wedding Ceremony</option>
-							  <option>Birthday</option>
-							  <option>Others</option>
+								<option>Home organizer</option>
+							  <option>Office organizer</option>
 							</select>
 						</div>
 						<div class="form-group ">
@@ -746,6 +482,132 @@
 
 
 
+	<!--************************
+			/*Modal para servicios*/
+			************************-->
+				<div class="overlay" id="over-servicios">
+					<div class="popup" id="po-servicios">
+						<div class="row cabecera-modal">
+							<div class="col-md-2"><img class="logo-sl" src="img/logodd.png" alt=""></span></div>
+							<div class="col-md-8">
+									<h2>MD Organizer en tu Hogar</h2>
+									<h3>Para MD,Cada rincon de tu hogar es importante</h3>
+							</div>
+							<div class="col-md-2">
+							 <a href="#" id="btn-cerrar-servicios" class="btn-cerrar-popup"><i class="fas fa-window-close fa-2x"></i></a>
+							 </div>
+						</div>
+					<div class="body-modal">
+						<div id="carousel-services-home" class="carousel slide" data-ride="carousel">
+						 <div class="carousel-inner">
+							   <div class="item active">
+									 <div class="row row-none">
+
+											 <div class="col-md-5">
+												 <div class="services-izq">
+													<h2>Despensas de cocinas</h2>
+													<img class="img-servicios" src="images/services/cocina.jpg" alt="">
+													</div>
+											 </div>
+											<div class="col-md-7">
+												<div class="well well-trans">
+													<div class="wow fadeInRight" data-wow-delay="0.1s">
+
+														<ul class="lead-list">
+															<li>La cocina suele ser el lugar de encuentro, de conversaciones sobre el día y de inspiración. Cocinar en un sitio agradable tiene muchas ventajas:</li>
+															<li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Sensación de armonía.</strong><br /></span></li>
+															<li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Te anima a cocinar.</strong><br /></span></li>
+															<li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Ahorras tiempo cocinando.</strong><br /></span></li>
+															<li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Adiós a los productos de comida vencidos.</strong><br /></span></li>
+															<li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Limpiar es mucho más sencillo.</strong><br /></span></li>
+														</ul>
+													</div>
+												</div>
+											 </div>
+											 <!-- <div class="col-md-1"></div> -->
+									 </div>
+							   </div>
+								 <div class="item">
+									 <div class="row row-none">
+											 <div class="col-md-5">
+												 <div class="services-izq">
+													<h2>Home offices</h2>
+													<img class="img-servicios" src="images/services/homeofficce2.jpg" alt="">
+													</div>
+											 </div>
+											<div class="col-md-7">
+												<div class="well well-trans">
+													<div class="wow fadeInRight" data-wow-delay="0.1s">
+
+														<ul class="lead-list">
+															<li>Tener la oficina en casa es todo un reto, porque no queremos mezclar nuestra vida privada con la laboral. Para ello necesitamos organización y disciplina.</li>
+															<li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Organización,</strong> puesto que debemos disponer un lugar por muy pequeño que sea para hacer las actividades relacionadas con el trabajo y este lugar debe cumplir tres consideraciones: delimitado, limpio y ordenado.<br /></span></li>
+															<li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Disciplina,</strong> debido a que estar en la casa nos tienta a tener artículos del hogar en nuestra oficina o viceversa, para ello necesitamos ser disciplinado y ser los primeros en cumplir con los límites de los espacios.<br /></span></li>
+														</ul>
+													</div>
+												</div>
+											 </div>
+									 </div>
+								</div>
+								<div class="item">
+									<div class="row row-none">
+											<div class="col-md-5">
+												<div class="services-izq">
+												 <h2>Closets</h2>
+												 <img class="img-servicios" src="images/services/closet.jpg" alt="">
+												 </div>
+											</div>
+										 <div class="col-md-7">
+											 <div class="well well-trans">
+												 <div class="wow fadeInRight" data-wow-delay="0.1s">
+
+													 <ul class="lead-list">
+														 <li><strong>"Cuanta ropa, zapatos y accesorios desordenados,</strong> sin usar o incluso ni recordaban que existían!"
+														  Suelen ser los comentarios cuando desmontamos el caos en un close. Con nuestros servicios de organización te garantizamos:</li>
+														 <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Orden.</strong><br /></span></li>
+														 <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Armonía.</strong><br /></span></li>
+														 <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Disponibilidad. </strong><br /></span></li>
+														 <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Ahorro en tiempo </strong> a la hora de vestirte<br /></span></li>
+													 </ul>
+												 </div>
+											 </div>
+											</div>
+									</div>
+							 </div>
+
+							 <div class="item">
+								 <div class="row row-none">
+										 <div class="col-md-5">
+											 <div class="services-izq">
+												<h2>Garages</h2>
+												<img class="img-servicios" src="images/services/garajes.png" alt="">
+												</div>
+										 </div>
+										<div class="col-md-7">
+											<div class="well well-trans">
+												<div class="wow fadeInRight" data-wow-delay="0.1s">
+
+													<ul class="lead-list">
+														<li><strong>Comprar y comprar en vez de buscar,</strong> es que buscar resulta muy engorroso dentro de un garage desordenado; Pero confesamos que para nuestro equipo un garage así es nuestro sueño, un spa donde con mucho detalle, cuidado y paciencia clasificamos, limpiamos y organizamos tu garage.
+                                        Una de las partes más interesantes de la organización garage es el “Reencuentro”, esa etapa donde el cliente consigue de todo lo que no recordaba que tenía y por último el “Gozo” cuando ven la transformación</li>
+
+													</ul>
+												</div>
+											</div>
+										 </div>
+								 </div>
+							</div>
+
+							</div>
+							<a class="left carousel-control" href="#carousel-services-home" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+							<a class="right carousel-control" href="#carousel-services-home" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+					 	</div>
+				</div>
+				</div>
+			 </div>
+
+	<!-- end modal services -->
+
 
 
 	<!-- jQuery -->
@@ -761,16 +623,24 @@
 	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- Stellar Parallax -->
 	<script src="js/jquery.stellar.min.js"></script>
+	  <!-- gallery lightbox -->
+	<script src="lightbox/dist/js/lightbox.js"></script>
+
+
+  <!-- flickity -->
+	<!-- <script src="js/flickity.pkgd.min.js"></script> -->
 
 	<!-- Flexslider -->
+	<!-- <script src="js/owl.carousel.min.js"></script> -->
 	<script src="js/jquery.flexslider-min.js"></script>
-	<script>
+	<!-- <script>
 		$(function () {
 	       $('#date').datetimepicker();
 	   });
-	</script>
+	</script> -->
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
+	<script src="js/popup.js"></script>
 
 	</body>
 </html>
